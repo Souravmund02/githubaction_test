@@ -1,9 +1,9 @@
-name: "hello world"
+name: "workflow-hello-world"
+# This is a simple GitHub Actions workflow that runs on push to the master branch
 
 on:
     push:
-        branches:
-            - master
+            
 jobs:
     hello_world:
         runs-on: ubuntu-latest
